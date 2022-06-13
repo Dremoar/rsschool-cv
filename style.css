@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkolivegreen;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+a {
+    color: black; /* Цвет ссылок */
+    transition: 0.3s;
+}
+
+a:visited {
+    color: black; /* Цвет посещенных ссылок */
+}
+
+a:active {
+    color: #2579bf; /* Цвет активных ссылок */
+}
+
+a:hover {
+    color: #2579bf;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.section-contacts a {
+    color: #d6d6d6; /* Цвет ссылок */
+    transition: 0.3s;
+}
+
+.section-contacts a:visited {
+    color: #d6d6d6; /* Цвет посещенных ссылок */
+}
+
+.section-contacts a:active {
+    color: #2579bf; /* Цвет активных ссылок */
+}
+
+.section-contacts a:hover {
+    color: #56a9ed; /* Цвет активных ссылок */
+}
+
+
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'left right right right';
+}
+
+.left {
+    grid-area: left;
+    background-color: darkgreen;
+    color: #d6d6d6;
+}
+
+.section {
+    margin: 0 5px 0 5px;
+}
+
+.right {
+    grid-area: right;
+    background-color: whitesmoke;
+    color: #353635;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+.section-profile {
+    background-color: goldenrod;
+    color: black;
+}
+
+.section section-profile p {
+    margin: 0;
+}
+
+.section-profile-avatar {
+    display: flex;
+    width: 100%;
+}
+
+.section-profile-title {
+    margin-left: 5px;
+}
+
+.section-title {
+    margin: 5px 0 3px 0;
+}
+
+.section-subtitle {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.section-contacts {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #81a2bd;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+.footer a:hover {
+    color: #d6d6d6;
+}
