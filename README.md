@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Dremoar.github.io/rsschool-cv/
